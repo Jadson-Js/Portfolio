@@ -1,0 +1,40 @@
+.hero__content {
+    position: absolute;
+    top: 30%;
+    width: 15em;
+
+    .hero__title {
+        font-size: $font-size-title;
+        font-weight: 600;
+        letter-spacing: -0.017em;
+        text-align: center;
+    }
+    
+    .hero__p {
+        text-transform: uppercase;
+        font-weight: 300;
+        margin: 0;
+        
+        .hero__abbr {
+            text-decoration-line: none;
+        }
+    }
+}
+
+.hero__button {
+    position: absolute;
+    top: 68%;
+ }
+
+.hero__social {
+    position: absolute;
+    top: 85%;
+
+    .hero__icon {
+        width: 3em;
+        height: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+

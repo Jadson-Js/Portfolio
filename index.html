@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Basic Front Boilerplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sass/style.scss">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header class="navbar navbar-dark bg-dark l-header">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
+        Pablo
+      </a>
+
+      <button class="navbar-toggler" id="toggleButton" type="button" data-toggle="collapse" data-target="#navbarToggle"
+        aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <nav class="toggle toggle--close" id="toggleMenu">
+        <ul class="nav nav-pills toggle__list">
+          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Resumo</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="d-flex flex-column align-items-center l-hero">
+      <div class="text-white text-center hero__content">
+        <h1 class="hero__title">Pablo Thadeu</h1>
+
+        <div class="hero__text">
+          <p class="hero__p">
+            Full-Stack Developer
+          </p>
+          <p class="hero__p">
+            <abbr class="hero__abbr" title="User Interface">UI</abbr>/<abbr class="hero__abbr"
+              title="User Experience">UX</abbr>
+            Designer
+          </p>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-lg btn-outline-success hero__button">Saiba mais</button>
+
+      <div class="hero__social">
+        <a href="#"><img src="./public/img/icon-email-cicle.png" class="hero__icon" alt="Icone do email"></a>
+
+        <a href="#"><img src="./public/img/icon-github.png" class="hero__icon" alt="Icone do github"></a>
+
+        <a href="#"><img src="./public/img/icon-linkedin-circle.png" class="hero__icon" alt="Icone do linkedin"></a>
+      </div>
+    </section>
+  </main>
+
+  <script src="src/js/main.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
