@@ -49,26 +49,10 @@
     top: 40%;
     width: 100%;
 
-    .hero__text {
-      display: flex;
-      justify-content: center;
-    }
-
     .hero__title {
       font-size: $font-size-big-title;
       font-weight: 600;
       letter-spacing: 0.05em;
-    }
-
-    .hero__p:first-of-type {
-      border-right: 1px solid $color-white;
-      border-left: 1px solid $color-white;
-      padding: 0 .5em;
-    }
-
-    .hero__p:last-of-type {
-      border-right: 1px solid $color-white;
-      padding: 0 .5em;
     }
   }
 }

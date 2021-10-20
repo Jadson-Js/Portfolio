@@ -38,6 +38,8 @@
                 letter-spacing: 1px;
                 color: $color-white;
                 transition: all .3s ease-in-out;
+                border-bottom: .1em solid transparent;
+                border-radius: 0;
 
                 &:hover {
                     color: $color-green;
