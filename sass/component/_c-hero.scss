@@ -1,6 +1,4 @@
 .hero__content {
-    position: absolute;
-    top: 30%;
     width: 15em;
 
     .hero__title {
@@ -18,14 +16,13 @@
 }
 
 .hero__button {
-    position: absolute;
-    top: 68%;
+    position: relative;
+    top: 2em;
  }
 
 .hero__social {
-    position: absolute;
-    top: 85%;
-
+    position: relative;
+    top: 8em;
     .hero__icon {
         width: 3em;
         height: 3em;

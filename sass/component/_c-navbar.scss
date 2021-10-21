@@ -7,14 +7,14 @@
     z-index: 1000;
     position: fixed !important;
     width: 100%;
-    height: 10vh;
+    height: 3.8em;
     top: 0;
 
     .toggle {
         position: fixed;
         transition: all .3s ease-in-out;
         width: 100vw;
-        height: 90vh;
+        height: calc(100vh - 3.8em);
         bottom: 0vh;
         background-color: $color-dark;
 
@@ -26,6 +26,7 @@
             padding: 0;
             margin: 0;
             text-transform: uppercase;
+            
             display: flex;
             flex-direction: column;
             justify-content: space-around;

@@ -1,3 +1,11 @@
+// XH-Small height devices 
+@media (max-height: 550px) {
+  .l-hero {
+    min-height: 550px;
+  }
+}
+
+
 // X-Small devices (portrait phones, less than 576px)
 @media (min-width: 575.98px) {}
 
@@ -30,6 +38,7 @@
         li a {
           font-weight: 300;
           font-size: $font-size-small;
+          border-radius: 5px;
 
           &:hover {
             border-bottom: unset;
