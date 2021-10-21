@@ -23,25 +23,21 @@
       </button>
 
 
-      <nav class="toggle toggle--close" id="toggleMenu">
+      <nav class="toggle toggle--close" id="toggleMenu nav-spy">
         <ul class="nav nav-pills toggle__list">
-          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Resumo</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-          
-         <!--  <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li> -->
+          <li class="nav-item"><a href="#scroll-main">Inicio</a></li>
+          <li class="nav-item"><a href="#scroll-about">Sobre</a></li>
+          <li class="nav-item"><a href="#scroll-summary">Resumo</a></li>
+          <li class="nav-item"><a href="#scroll-portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#scroll-service">Serviços</a></li>
+          <li class="nav-item"><a href="#scroll-contact">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="d-flex flex-column justify-content-center align-items-center l-hero">
+  <main data-bs-spy="scroll" data-bs-target="#nav-spy" data-bs-offset="0" tabindex="0">
+    <section class="d-flex flex-column justify-content-center align-items-center l-hero" id="scroll-main">
       <div class="d-flex flex-column align-items-center text-white hero__content">
         <h1 class="hero__title">Pablo Abreu</h1>
 
@@ -58,6 +54,94 @@
         <a href="#"><img src="./public/img/icon-github.png" class="hero__icon" alt="Icone do github"></a>
 
         <a href="#"><img src="./public/img/icon-linkedin-circle.png" class="hero__icon" alt="Icone do linkedin"></a>
+      </div>
+    </section>
+
+    <section class="container l-about" id="scroll-about">
+      <h2 class="h5 text-center">Sobre</h2>
+      <h3 class="h1 text-center">
+        Lorem ipsum dolor sit amet consect.
+      </h3>
+
+      <article class="d-flex flex-column align-items-center flex-md-row about__info">
+        <img src="./public/img/perfil.png" class="img-fluid m-4 about__img" alt="Foto de perfil">
+        <p class="text-center text-md-start">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptates dolor quidem nisi? Possimus ad
+          maiores eligendi quidem sapiente, fugiat est dignissimos nihil unde eius, aut mollitia
+        </p>
+      </article>
+
+      <article class="about__perfil">
+        <h3 class="h2 text-center">Perfil</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro facer
+        </p>
+
+        <div class="about__data row">
+          <div class="col-12 col-sm">
+            <dl>
+              <dt>Nome:</dt>
+              <dd class="text-muted">Pablo Thadeu Abreu</dd>
+              <dt>Nascimento</dt>
+              <dd class="text-muted"><time datetime="2005-3-8">8 de março de 2005</time></dd>
+              <dt>Cargo:</dt>
+              <dd class="text-muted">Desempregrado</dd>
+            </dl>
+          </div>
+
+          <div class="col-12 col-sm">
+            <dl>
+              <dt>Website:</dt>
+              <dd class="text-muted">ucountall.com</dd>
+              <dt>Email:</dt>
+              <dd class="text-muted">jadson20051965@gmail.com</dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <article class="about__skill">
+        <h3 class="h2 text-center">Skills</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro face Culpa porro face Culpa porro facer
+        </p>
+
+        <div class="row">
+          <div class="col-12 col-md">
+            <div class="text-center content__skill mt-4">
+              <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
+              <h4 class="h3"><abbr title="HyperText Markup Language">HTML</abbr></h4>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="text-center content__skill mt-4">
+              <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
+              <h4 class="h3"><abbr title="Cascading Style Sheets">CSS</abbr></h4>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="text-center content__skill mt-4">
+              <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
+              <h4 class="h3">Javascript</h4>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="text-center about__buttons">
+        <button type="button" class="btn btn-outline-secondary">Entre em contato</button>
+        <button type="button" class="btn btn-secondary">Dawload <abbr title="Currículo">CV</abbr></button>
       </div>
     </section>
   </main>

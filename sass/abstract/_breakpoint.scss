@@ -11,15 +11,6 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (min-width: 767.98px) {
-  .l-hero {
-    background-position: 50% 70%;
-    background-size: cover;
-    background-image: url(/public/img/bg-hero-1280.jpg);
-  }
-}
-
-// Medium devices (tablets, less than 992px)
-@media (min-width: 991.98px) {
   .navbar-toggler {
     display: none;
   }
@@ -64,7 +55,25 @@
       letter-spacing: 0.05em;
     }
   }
+
+  .l-hero {
+    background-position: 50% 70%;
+    background-size: cover;
+    background-image: url(/public/img/bg-hero-1280.jpg);
+  }
+
+  .about__info {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .about__data {
+    width: 30em;
+  }
 }
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 991.98px) {}
 
 // Large devices (desktops, less than 1200px)
 @media (min-width: 1199.98px) {
