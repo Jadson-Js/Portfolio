@@ -11,21 +11,22 @@
 </head>
 
 <body>
-  <header class="navbar navbar-dark bg-dark l-header">
+  <header class="navbar navbar-dark bg-dark l-header">  <!-- Navbar -->
     <div class="container-fluid">
       <a href="#" class="navbar-brand">
-        Pablo
+        Pablo <!-- Logo of navbar -->
       </a>
 
-      <button class="navbar-toggler" id="toggleButton" type="button" data-toggle="collapse" data-target="#navbarToggle"
-        aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="toggleButton" type="button" data-toggle="collapse" data-target="#toggleMenu"
+        aria-controls="toggleMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> <!-- Menu toggle, Small devices-->
+      <!-- Call function that edit class of menu toggle -->
 
-
-      <nav class="toggle toggle--close" id="toggleMenu" id="nav-spy">
+      <!-- toggle--close = class that indicates the state of the toggle menu -->
+      <nav class="toggle toggle--close" id="toggleMenu"> <!-- nav -->
         <ul class="nav nav-pills toggle__list">
-          <li class="nav-item"><a class="nav__link1" href="#scroll-main">Inicio</a></li>
+          <li class="nav-item"><a class="nav__link1" href="#scroll-main">Inicio</a></li> <!-- Href activates scrollspy for id equal to href  -->
           <li class="nav-item"><a class="nav__link2" href="#scroll-about">Sobre</a></li>
           <li class="nav-item"><a class="nav__link3" href="#scroll-summary">Resumo</a></li>
           <li class="nav-item"><a class="nav__link4" href="#scroll-portfolio">Portfolio</a></li>
@@ -36,8 +37,8 @@
     </div>
   </header>
 
-  <main data-bs-spy="scroll" data-bs-target="#nav-spy" data-bs-offset="0" tabindex="0">
-    <section class="d-flex flex-column justify-content-center align-items-center l-hero" id="scroll-main">
+  <main data-bs-spy="scroll" data-bs-target="#toggleMenu" data-bs-offset="0" tabindex="0"> <!-- Configure of scrollspy -->
+    <section class="d-flex flex-column justify-content-center align-items-center l-hero" id="scroll-main"> <!-- Section hero -->
       <div class="d-flex flex-column align-items-center text-white hero__content">
         <h1 class="hero__title">Pablo Abreu</h1>
 
@@ -46,9 +47,9 @@
         </p>
       </div>
 
-      <button type="button" class="btn btn-lg btn-outline-success hero__button">Saiba mais</button>
+      <a href="#scroll-about" class="btn btn-lg btn-outline-success hero__button">Saiba mais</a> <!-- Button saiba mais-->
 
-      <div class="hero__social">
+      <div class="hero__social"> <!-- Social network -->
         <a href="#"><img src="./public/img/icon-email-cicle.png" class="hero__icon" alt="Icone do email"></a>
 
         <a href="#"><img src="./public/img/icon-github.png" class="hero__icon" alt="Icone do github"></a>
@@ -57,33 +58,33 @@
       </div>
     </section>
 
-    <section class="container l-about" id="scroll-about">
+    <section class="container l-about" id="scroll-about"> <!-- Section about-->
       <h2 class="h5 text-center">Sobre</h2>
       <h3 class="h1 text-center">
         Lorem ipsum dolor sit amet consect.
       </h3>
 
-      <article class="d-flex flex-column align-items-center flex-md-row about__info">
+      <div class="d-flex flex-column align-items-center flex-md-row about__info"> <!-- Apresentation of me -->
         <img src="./public/img/perfil.png" class="img-fluid m-4 about__img" alt="Foto de perfil">
         <p class="text-center text-md-start">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptates dolor quidem nisi? Possimus ad
           maiores eligendi quidem sapiente, fugiat est dignissimos nihil unde eius, aut mollitia
         </p>
-      </article>
+      </div>
 
-      <article class="about__perfil">
+      <article class="about__perfil"> <!-- Perfil -->
         <h3 class="h2 text-center">Perfil</h3>
         <p class="text-center about__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro facer
         </p>
 
-        <div class="about__data row">
+        <div class="about__data row"> <!-- Table with pessoal data -->
           <div class="col-12 col-sm">
             <dl>
               <dt>Nome:</dt>
               <dd class="text-muted">Pablo Thadeu Abreu</dd>
               <dt>Nascimento</dt>
-              <dd class="text-muted"><time datetime="2005-3-8">8 de março de 2005</time></dd>
+              <dd class="text-muted"><time datetime="2005-03-08">8 de março de 2005</time></dd>
               <dt>Cargo:</dt>
               <dd class="text-muted">Desempregrado</dd>
             </dl>
@@ -100,7 +101,7 @@
         </div>
       </article>
 
-      <article class="about__skill">
+      <article class="about__skill"> <!-- Skilss -->
         <h3 class="h2 text-center">Skills</h3>
         <p class="text-center about__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro face Culpa porro face Culpa porro facer
@@ -108,38 +109,38 @@
 
         <div class="row">
           <div class="col-12 col-md">
-            <div class="text-center content__skill mt-4">
+            <article class="text-center content__skill mt-4"> <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4"><abbr title="HyperText Markup Language">HTML</abbr></h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
               </p>
-            </div>
+            </article>
           </div>
 
           <div class="col-12 col-md">
-            <div class="text-center content__skill mt-4">
+            <article class="text-center content__skill mt-4"> <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4"><abbr title="Cascading Style Sheets">CSS</abbr></h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
               </p>
-            </div>
+            </article>
           </div>
 
           <div class="col-12 col-md">
-            <div class="text-center content__skill mt-4">
+            <article class="text-center content__skill mt-4"> <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4">Javascript</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
               </p>
-            </div>
+            </article>
           </div>
         </div>
       </article>
 
-      <div class="text-center about__buttons">
+      <div class="text-center about__buttons"> <!-- Buttons for entry contact or dawload CV -->
         <button type="button" class="btn btn-outline-secondary">Entre em contato</button>
         <button type="button" class="btn btn-secondary">Dawload <abbr title="Currículo">CV</abbr></button>
       </div>
