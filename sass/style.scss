@@ -26,6 +26,7 @@
 @import "layout/_l-header.scss";
 @import "layout/_l-hero.scss";
 @import "layout/_l-about.scss";
+@import "layout/_l-summary";
 
 
 // ==========================================================================
@@ -37,12 +38,14 @@
 @import "component/_c-hero.scss";
 @import "component/_c-about.scss";
 @import "component/_c-buttons.scss";
+@import "component/_c-summary.scss";
 
 // ==========================================================================
 // State
 // ==========================================================================
 
 // @import "state/is-";
+@import "state/_is-main";
 
 // ==========================================================================
 // Page

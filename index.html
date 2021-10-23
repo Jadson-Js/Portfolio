@@ -11,10 +11,12 @@
 </head>
 
 <body>
-  <header class="navbar navbar-dark bg-dark l-header">  <!-- Navbar -->
+  <header class="navbar navbar-dark bg-dark l-header">
+    <!-- Navbar -->
     <div class="container-fluid">
       <a href="#" class="navbar-brand">
-        Pablo <!-- Logo of navbar -->
+        Pablo
+        <!-- Logo of navbar -->
       </a>
 
       <button class="navbar-toggler" id="toggleButton" type="button" data-toggle="collapse" data-target="#toggleMenu"
@@ -24,9 +26,11 @@
       <!-- Call function that edit class of menu toggle -->
 
       <!-- toggle--close = class that indicates the state of the toggle menu -->
-      <nav class="toggle toggle--close" id="toggleMenu"> <!-- nav -->
+      <nav class="toggle toggle--close" id="toggleMenu">
+        <!-- nav -->
         <ul class="nav nav-pills toggle__list">
-          <li class="nav-item"><a class="nav__link1" href="#scroll-main">Inicio</a></li> <!-- Href activates scrollspy for id equal to href  -->
+          <li class="nav-item"><a class="nav__link1" href="#scroll-main">Inicio</a></li>
+          <!-- Href activates scrollspy for id equal to href  -->
           <li class="nav-item"><a class="nav__link2" href="#scroll-about">Sobre</a></li>
           <li class="nav-item"><a class="nav__link3" href="#scroll-summary">Resumo</a></li>
           <li class="nav-item"><a class="nav__link4" href="#scroll-portfolio">Portfolio</a></li>
@@ -37,8 +41,10 @@
     </div>
   </header>
 
-  <main data-bs-spy="scroll" data-bs-target="#toggleMenu" data-bs-offset="0" tabindex="0"> <!-- Configure of scrollspy -->
-    <section class="d-flex flex-column justify-content-center align-items-center l-hero" id="scroll-main"> <!-- Section hero -->
+  <main data-bs-spy="scroll" data-bs-target="#toggleMenu" data-bs-offset="0" tabindex="0">
+    <!-- Configure of scrollspy -->
+    <section class="d-flex flex-column justify-content-center align-items-center l-hero" id="scroll-main">
+      <!-- Section hero -->
       <div class="d-flex flex-column align-items-center text-white hero__content">
         <h1 class="hero__title">Pablo Abreu</h1>
 
@@ -47,9 +53,11 @@
         </p>
       </div>
 
-      <a href="#scroll-about" class="btn btn-lg btn-outline-success hero__button">Saiba mais</a> <!-- Button saiba mais-->
+      <a href="#scroll-about" class="btn btn-lg btn-outline-success hero__button">Saiba mais</a>
+      <!-- Button saiba mais-->
 
-      <div class="hero__social"> <!-- Social network -->
+      <div class="hero__social">
+        <!-- Social network -->
         <a href="#"><img src="./public/img/icon-email-cicle.png" class="hero__icon" alt="Icone do email"></a>
 
         <a href="#"><img src="./public/img/icon-github.png" class="hero__icon" alt="Icone do github"></a>
@@ -58,27 +66,31 @@
       </div>
     </section>
 
-    <section class="container l-about" id="scroll-about"> <!-- Section about-->
-      <h2 class="h5 text-center">Sobre</h2>
+    <section class="container l-about" id="scroll-about">
+      <!-- Section about-->
+      <h2 class="h5 text-center is-sec_title">Sobre</h2>
       <h3 class="h1 text-center">
         Lorem ipsum dolor sit amet consect.
       </h3>
 
-      <div class="d-flex flex-column align-items-center flex-md-row about__info"> <!-- Apresentation of me -->
+      <div class="d-flex flex-column align-items-center flex-md-row about__info">
+        <!-- Apresentation of me -->
         <img src="./public/img/perfil.png" class="img-fluid m-4 about__img" alt="Foto de perfil">
-        <p class="text-center text-md-start">
+        <p class="text-center text-md-start is-text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptates dolor quidem nisi? Possimus ad
           maiores eligendi quidem sapiente, fugiat est dignissimos nihil unde eius, aut mollitia
         </p>
       </div>
 
-      <article class="about__perfil"> <!-- Perfil -->
+      <section class="about__perfil">
+        <!-- Perfil -->
         <h3 class="h2 text-center">Perfil</h3>
-        <p class="text-center about__text">
+        <p class="text-center is-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro facer
         </p>
 
-        <div class="about__data row"> <!-- Table with pessoal data -->
+        <div class="about__data row">
+          <!-- Table with pessoal data -->
           <div class="col-12 col-sm">
             <dl>
               <dt>Nome:</dt>
@@ -99,17 +111,19 @@
             </dl>
           </div>
         </div>
-      </article>
+      </section>
 
-      <article class="about__skill"> <!-- Skilss -->
+      <section class="about__skill">
+        <!-- Skilss -->
         <h3 class="h2 text-center">Skills</h3>
-        <p class="text-center about__text">
+        <p class="text-center is-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro face Culpa porro face Culpa porro facer
         </p>
 
         <div class="row">
           <div class="col-12 col-md">
-            <article class="text-center content__skill mt-4"> <!-- About my skill -->
+            <article class="text-center about__content mt-4">
+              <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4"><abbr title="HyperText Markup Language">HTML</abbr></h4>
               <p class="text-muted">
@@ -119,7 +133,8 @@
           </div>
 
           <div class="col-12 col-md">
-            <article class="text-center content__skill mt-4"> <!-- About my skill -->
+            <article class="text-center about__content mt-4">
+              <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4"><abbr title="Cascading Style Sheets">CSS</abbr></h4>
               <p class="text-muted">
@@ -129,7 +144,8 @@
           </div>
 
           <div class="col-12 col-md">
-            <article class="text-center content__skill mt-4"> <!-- About my skill -->
+            <article class="text-center about__content mt-4">
+              <!-- About my skill -->
               <img src="./public/img/icon-react.png" class="img-fluid" style="height: 3em;" alt="">
               <h4 class="h4">Javascript</h4>
               <p class="text-muted">
@@ -138,11 +154,80 @@
             </article>
           </div>
         </div>
-      </article>
+      </section>
 
-      <div class="text-center about__buttons"> <!-- Buttons for entry contact or dawload CV -->
+      <div class="text-center about__buttons">
+        <!-- Buttons for entry contact or dawload CV -->
         <button type="button" class="btn btn-outline-secondary">Entre em contato</button>
         <button type="button" class="btn btn-secondary">Dawload <abbr title="Currículo">CV</abbr></button>
+      </div>
+    </section>
+
+    <section class="l-summary" id="scroll-summary">
+      <!-- Sumary-->
+      <div class="container">
+        <h2 class="h5 text-center is-sec_title">Sobre</h2>
+        <h3 class="h1 text-center">
+          Lorem ipsum dolor sitamet consect.
+        </h3>
+
+        <section class="d-flex flex-column align-items-center l-timeline">
+          <h3 class="text-center is-sub_title timeline__title ">Experiências Profissional</h3>
+
+          <article class="timeline__content">
+            <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
+
+            <div class="d-inline-block mb-4 pb-4 timeline__header">
+              <h4>Developer</h4>
+              <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
+            </div>
+
+            <div class="timeline__body">
+              <h5 class="body__title">Freelancer</h5>
+              <p class="is-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
+                accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
+                veniam?
+              </p>
+            </div>
+          </article>
+
+          <h3 class="text-center is-sub_title timeline__title ">Experiências Profissional</h3>
+          
+          <article class="timeline__content">
+            <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
+
+            <div class="d-inline-block mb-4 pb-4 timeline__header">
+              <h4>Developer</h4>
+              <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
+            </div>
+            <div class="timeline__body">
+              <h5 class="body__title">Freelancer</h5>
+              <p class="is-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
+                accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
+                veniam?
+              </p>
+            </div>
+          </article>
+          <article class="timeline__content">
+            <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
+
+            <div class="d-inline-block mb-4 pb-4 timeline__header">
+              <h4>Developer</h4>
+              <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
+            </div>
+            <div class="timeline__body">
+              <h5 class="body__title">Freelancer</h5>
+              <p class="is-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
+                accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
+                veniam?
+              </p>
+            </div>
+          </article>
+
+        </section>
       </div>
     </section>
   </main>

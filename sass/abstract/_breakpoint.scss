@@ -68,7 +68,40 @@
   }
 
   .about__data {
-    width: 30em;
+    max-width: 35em;
+  }
+
+  .timeline__content {
+    position: relative;
+    left: 5em;
+    max-width: 35em;
+    height: 17em;
+    padding-left: 2em;
+    border-left: 1px solid $color-gray;
+
+    .timeline__header {
+      border-bottom: unset;
+      position: relative;
+      right: 17em;
+    }
+
+    .timeline__icon {
+      position: relative;
+      right: 3.52em;
+
+    }
+
+    .timeline__body {
+      position: relative;
+      bottom: 8em;
+
+      .body__title {
+        display: inline-block;
+        margin: 1em 0;
+        padding-bottom: 1em;
+        border-bottom: 2px solid $color-gray;
+      }
+    }
   }
 }
 

@@ -4,19 +4,19 @@
     border-radius: 360px;
 }
 
-.about__text {
-    font-size: $font-size-normal-sm;
-}
-
 .about__perfil {
     margin-top: 4em;
     
     .about__data { 
-        font-size: $font-size-normal-sm;
         margin: 0 auto;
     }
 }
 
 .about__skill {
     margin: 4em auto 6em;
+}
+
+.about__content {
+    margin: 0 auto;
+    max-width: 80%;
 }

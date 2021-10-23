@@ -1,0 +1,22 @@
+.timeline__title {
+    margin: 2em 0;
+}
+
+.timeline__content {
+    padding-left: 2.5em;
+    margin-left: 2.5em;
+    border-left: 1px solid $color-gray;
+    
+    .timeline__header {
+        border-bottom: 2px solid $color-gray;
+        position: relative;
+        right: 3.5em;
+    }
+
+    .timeline__icon {
+        position: relative;
+        width: 3em;
+        right: 4.09em; 
+        bottom: 1.8em;
+    }
+}
