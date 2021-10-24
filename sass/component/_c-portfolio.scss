@@ -1,0 +1,58 @@
+.card {
+    width: 18em;
+    border-radius: 15px !important;
+    background: $color-gray !important;
+    padding: 5px;
+    transition: all  .5s ease ;
+
+    .card-tag {
+        display: inline-block;
+        border-radius: 15px;
+        padding: 1px 8px;
+        border: 1px solid $color-puple;
+        background: $color-white;
+        color: $color-dark;
+        margin: .5em .5em 0 .5em;
+    }
+
+    .card-img-bottom {
+        height: 15em;
+    }
+
+    .card-buttons {
+        display: none;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 35%;
+        bottom: 35%;
+
+        .card-btn {
+            border: 2px solid $color-white;
+            border-radius: 10px;
+            background: $color-puple;
+                      
+           
+            &:hover {
+                transition: 0.2s;
+                transform: scale(1.1);
+                box-shadow: 0 0 10px 0 $color-puple inset, 0 0 10px 4px $color-puple;
+                background: rgba(0, 0, 0, 0);
+
+            }
+        }
+    }
+
+    &:hover {
+        background: $color-dark !important;
+
+        .card-img-bottom {
+            opacity: .5;
+        }
+
+        .card-buttons {
+            display: block;
+        }
+    }
+
+}

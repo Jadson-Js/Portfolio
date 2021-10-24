@@ -1,6 +1,10 @@
 .hero__content {
     width: 15em;
 
+    .hero__title {
+        font-size: $font-size-title;
+      }
+
     .hero__text {
         text-transform: uppercase;
         font-weight: 300;
@@ -11,12 +15,12 @@
 
 .hero__button {
     position: relative;
-    top: 2em;
+    top: 3em;
  }
 
 .hero__social {
-    position: relative;
-    top: 8em;
+    position: absolute;
+    bottom: 2em;
     
     .hero__icon {
         width: 3em;

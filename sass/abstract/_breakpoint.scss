@@ -75,9 +75,9 @@
     position: relative;
     left: 5em;
     max-width: 35em;
-    height: 17em;
+    height: 16em;
     padding-left: 2em;
-    border-left: 1px solid $color-gray;
+    border-left: 1px solid $color-gray-5;
 
     .timeline__header {
       border-bottom: unset;
@@ -99,7 +99,7 @@
         display: inline-block;
         margin: 1em 0;
         padding-bottom: 1em;
-        border-bottom: 2px solid $color-gray;
+        border-bottom: 2px solid $color-gray-5;
       }
     }
   }

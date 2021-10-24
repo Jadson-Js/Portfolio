@@ -4,6 +4,11 @@
     border-radius: 360px;
 }
 
+.about__text {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .about__perfil {
     margin-top: 4em;
     
@@ -14,9 +19,9 @@
 
 .about__skill {
     margin: 4em auto 6em;
-}
 
-.about__content {
-    margin: 0 auto;
-    max-width: 80%;
+    .skill__content {
+        margin: 0 auto;
+        max-width: 70%;
+    }
 }
