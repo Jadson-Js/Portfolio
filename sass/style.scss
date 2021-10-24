@@ -23,12 +23,7 @@
 // ==========================================================================
 
 // @import "layout/l-";
-@import "layout/_l-header";
-@import "layout/_l-hero";
-@import "layout/_l-about";
-@import "layout/_l-summary";
-@import "layout/_l-portfolio";
-
+@import "layout/_l-layout";
 
 // ==========================================================================
 // Component
@@ -41,6 +36,7 @@
 @import "component/_c-buttons";
 @import "component/_c-summary";
 @import "component/_c-portfolio";
+@import "component/_c-service";
 
 // ==========================================================================
 // State

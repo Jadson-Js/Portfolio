@@ -1,0 +1,31 @@
+@mixin l-section () {
+    padding-top: 4em;
+    margin-bottom: 4em;
+    
+}
+
+.l-about, .l-portfolio, .l-summary, .l-service{
+    @include l-section()
+}
+
+.l-header {
+    background: $color-dark;
+}
+
+.l-hero {
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 50% 70%;
+    background-size: cover;
+    background-image: url(/public/img/bg-hero-640.jpg);
+}
+
+.l-summary {
+    background: $color-white;
+}
+
+.l-service {
+    background: $color-black;
+}
