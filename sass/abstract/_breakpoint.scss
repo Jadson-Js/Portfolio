@@ -34,6 +34,7 @@
           &:hover {
             border-bottom: unset;
             color: $color-dark;
+            splay: inline;
             background-color: $color-white;
           }
         }
@@ -67,8 +68,16 @@
     width: 70%;
   }
 
+  .about__text {
+    width: 70%;
+  }
+
   .about__data {
-    max-width: 35em;
+    max-width: 70%;
+
+    .data__table {
+      width: 100%;
+    }
   }
 
   .timeline__content {
@@ -116,4 +125,38 @@
 }
 
 // X-Large devices (large desktops, less than 1400px)
-@media (min-width: 1399.98px) {}
+@media (min-width: 1399.98px) {
+  .navbar-brand {
+    font-size: $font-size-normal-lg !important;
+  }
+
+  .navbar {
+    height: auto;
+
+    .toggle {
+      &__list {
+        li a {
+          font-size: $font-size-small-lg;
+        }
+      }
+    }
+  }
+
+  .hero__title {
+    font-size: $font-size-big-title-lg !important;
+  }
+
+  .hero__text {
+    font-size: $font-size-small-lg !important;
+  }
+
+  .hero__button {
+    position: relative;
+    top: 6em;
+    transform: scale(1.5);
+  }
+
+  .is-text {
+    font-size: $font-size-normal-sm-lg;
+  }
+}

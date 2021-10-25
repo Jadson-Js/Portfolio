@@ -7,6 +7,10 @@
 
 .service__content {
     color: $color-white;
+
+    .service__name {
+        margin-top: 1em;
+    }
 }
 
 .content__icon {

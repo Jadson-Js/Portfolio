@@ -1,10 +1,10 @@
 @mixin l-section () {
-    padding-top: 4em;
-    margin-bottom: 4em;
+    padding-top: 6em;
+    margin-bottom: 6em;
     
 }
 
-.l-about, .l-portfolio, .l-summary, .l-service{
+.l-about, .l-summary{
     @include l-section()
 }
 
@@ -26,6 +26,20 @@
     background: $color-white;
 }
 
+.l-timeline {
+    padding-bottom: 6em;
+}
+
+.l-portfolio {
+    margin-bottom: 6em;
+}
+
 .l-service {
     background: $color-black;
+    padding: 6em 0;
+}
+
+.l-contact {
+    padding: 6em 0;
+    background: $color-white-black;
 }
