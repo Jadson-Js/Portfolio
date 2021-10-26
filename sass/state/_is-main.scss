@@ -10,3 +10,13 @@
 .is-sec_title {
     color: $color-green;
 }
+
+.is-function {
+    color: $color-white;
+
+    .is-function__icon {
+        font-size: 5em;
+        color: $color-puple;
+    }
+
+}

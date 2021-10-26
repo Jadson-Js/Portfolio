@@ -168,15 +168,15 @@
     <section class="l-summary" id="scroll-summary">
       <!-- Sumary-->
       <div class="container">
-        <h2 class="h5 text-center is-sec_title">Resumo</h2>
+        <h2 class="h5 text-center is-sec_title">Resumo</h2> <!--- Intro -->
         <h3 class="h1 text-center">
           Lorem ipsum dolor sitamet consect.
         </h3>
 
-        <section class="d-flex flex-column align-items-center l-timeline">
+        <section class="d-flex flex-column align-items-center l-timeline"> <!-- Professional experience -->
           <h3 class="text-center is-sub_title timeline__title ">Experiências Profissional</h3>
 
-          <article class="timeline__content">
+          <article class="timeline__content"> <!-- Experience -->
             <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
 
             <div class="d-inline-block mb-4 pb-4 timeline__header">
@@ -194,9 +194,9 @@
             </div>
           </article>
 
-          <h3 class="text-center is-sub_title timeline__title ">Experiências Profissional</h3>
+          <h3 class="text-center is-sub_title timeline__title ">Educação</h3>
 
-          <article class="timeline__content">
+          <article class="timeline__content"> <!--  -->
             <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
 
             <div class="d-inline-block mb-4 pb-4 timeline__header">
@@ -241,8 +241,8 @@
 
       <section class="row">
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card mb-4 text-center mx-auto">
+        <div class="col-12 col-md-6 col-lg-4"> 
+          <article class="card mb-4 text-center mx-auto"><!-- Project -->
             <div class="card-body p-2">
               <h4 class="h5 text-white">UCountAll.com</h4>
 
@@ -262,7 +262,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4">
-          <article class="card mb-4 text-center mx-auto">
+          <article class="card mb-4 text-center mx-auto"> <!-- Project -->
             <div class="card-body p-2">
               <h4 class="h5 text-white">UCountAll.com</h4>
 
@@ -281,7 +281,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4">
-          <article class="card mb-4 text-center mx-auto">
+          <article class="card mb-4 text-center mx-auto"> <!-- Project -->
             <div class="card-body p-2">
               <h4 class="h5 text-white">UCountAll.com</h4>
 
@@ -300,7 +300,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4">
-          <article class="card mb-4 text-center mx-auto">
+          <article class="card mb-4 text-center mx-auto"> <!-- Project -->
             <div class="card-body p-2">
               <h4 class="h5 text-white">UCountAll.com</h4>
 
@@ -321,7 +321,7 @@
     </section>
 
     <section class="l-service" id="scroll-service">
-      <!-- Portfolio -->
+      <!-- My service -->
       <div class="container">
         <h2 class="h5 text-center is-sec_title">Serviço</h2>
         <h3 class="h1 mb-4 text-center text-white">
@@ -333,9 +333,8 @@
 
         <div class="row">
           <div class="col-12 col-md">
-            <article class="text-center service__content mt-4">
-              <!-- About my skill -->
-              <i class="fas fa-desktop content__icon"></i>
+            <article class="text-center is-function mt-4"> <!-- Service-->
+              <i class="fas fa-desktop is-function__icon"></i>
               <h4 class="h4 mt-4">Sistema Integrado</h4>
               <p class="text-muted is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
@@ -344,9 +343,8 @@
           </div>
 
           <div class="col-12 col-md">
-            <article class="text-center service__content mt-4">
-              <!-- About my skill -->
-              <i class="fas fa-globe content__icon"></i>
+            <article class="text-center is-function mt-4"> <!-- Service-->
+              <i class="fas fa-globe is-function__icon"></i>
               <h4 class="h4 mt-4">Sistema Integrado</h4>
               <p class="text-muted is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
@@ -355,9 +353,8 @@
           </div>
 
           <div class="col-12 col-md">
-            <article class="text-center service__content mt-4">
-              <!-- About my skill -->
-              <i class="fas fa-code content__icon"></i>
+            <article class="text-center is-function mt-4"> <!-- Service-->
+              <i class="fas fa-code is-function__icon"></i>
               <h4 class="h4 mt-4">Sistema Integrado</h4>
               <p class="text-muted is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores repellat.
@@ -368,7 +365,8 @@
       </div>
     </section>
 
-    <section class="l-contact" id="scroll-contact">  <!-- Contact -->
+    <section class="l-contact" id="scroll-contact">
+      <!-- Contact -->
       <div class="container">
         <h2 class="h5 text-center is-sec_title">Contato</h2>
         <h3 class="h1 mb-4 text-center text-white">
@@ -377,9 +375,73 @@
         <p class="text-center mb-4 is-text service__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia dignissimos
         </p>
+
+        <form class="d-flex flex-column align-items-center mb-4"> <!-- form to contact me-->
+          <div class="contact__data">
+            <label for="inputName" class="form-label contact__label">Nome:</label>
+            <input type="text" class="form-control contact__input" name="inputName" id="inputName">
+          </div>
+
+          <div class="contact__data">
+            <label for="inputEmail" class="form-label contact__label">Email:</label>
+            <input type="text" class="form-control contact__input" name="inputEmail" id="inputEmail">
+          </div>
+
+          <div class="contact__data">
+            <label for="inputSubject" class="form-label contact__label">Assunto:</label>
+            <input type="text" class="form-control contact__input" name="inputSubject" id="inputSubject">
+          </div>
+
+          <div class="contact__data">
+            <label for="inputMessage" class="form-label contact__label">Menssagem:</label>
+            <textarea class="form-control contact__input" name="inputMessage" id="inputMessage" cols="30"
+              rows="4"></textarea>
+          </div>
+
+          <input type="submit" class="btn btn-success btn mt-4 contact__button" value="Enviar">
+        </form>
+
+        <div class="row"> 
+          <div class="col-12 col-md">
+            <article class="text-center is-function mt-4"> <!-- My contacts -->
+             
+              <i class="fas fa-map-marker-alt is-function__icon"></i>
+              <h4 class="h4 mt-4">Locarização</h4>
+              <address class="text-muted is-text">
+                São Luís <br>
+                Maranhão <br>
+                Brasil
+              </address>
+            </article>
+          </div>
+  
+          <div class="col-12 col-md">
+            <article class="text-center is-function mt-4"> <!-- My contacts -->
+             
+              <i class="fas fa-envelope is-function__icon"></i>
+              <h4 class="h4 mt-4">Envie Um E-mail</h4>
+              <address class="text-muted is-text">
+                jadson666@gmail.com
+              </address>
+            </article>
+          </div>
+  
+          <div class="col-12 col-md">
+            <article class="text-center is-function mt-4"> <!-- My contacts -->
+              <i class="fas fa-phone-alt is-function__icon"></i>
+              <h4 class="h4 mt-4">Chamada Ou Whatsapp</h4>
+              <address class=" is-text">
+                <a href="tel:98983507939" class="text-muted">
+                  (+55) 98 983507939
+                </a>
+              </address>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   </main>
+
 
   <script src="src/js/main.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
