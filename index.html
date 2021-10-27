@@ -70,7 +70,7 @@
 
     <section class="container l-about" id="scroll-about">
       <!-- Section about-->
-      <h2 class="h5 text-center is-sec_title">Sobre</h2>
+      <h2 class="h5 text-center is-sec__name">Sobre</h2>
       <h3 class="h2 text-center">
         Lorem ipsum dolor sit amet consect.
       </h3>
@@ -86,16 +86,16 @@
 
       <section class="about__perfil">
         <!-- Perfil -->
-        <h3 class="mb-3 text-center">Perfil</h3>
-        <p class="text-center mb-4 about__text is-text">
+        <h4 class="mb-2 text-center">Perfil</h4>
+        <p class="text-center about__text is-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porr dipisicing elit. Culpa porr o facer porro
           facer porro facer
         </p>
 
         <div class="about__data row">
           <!-- Table with pessoal data -->
-          <div class="col-12 col-sm">
-            <dl class="data__table is-text">
+          <div class="col-12 col-sm data__table--left">
+            <dl class=" is-text">
               <dt>Nome:</dt>
               <dd class="text-muted">Pablo Thadeu Abreu</dd>
               <dt>Nascimento</dt>
@@ -105,8 +105,8 @@
             </dl>
           </div>
 
-          <div class="col-12 col-sm">
-            <dl class="is-text">
+          <div class="col-12 col-sm data__table--right">
+            <dl class=" is-text">
               <dt>Website:</dt>
               <dd class="text-muted">ucountall.com</dd>
               <dt>Email:</dt>
@@ -118,7 +118,7 @@
 
       <section class="about__skill">
         <!-- Skillss -->
-        <h3 class="mb-3 text-center">Skills</h3>
+        <h4 class="mb-2 text-center">Skills</h4>
         <p class="text-center about__text is-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro face Culpa porro face Culpa porro facer
         </p>
@@ -169,27 +169,27 @@
     <section class="l-summary" id="scroll-summary">
       <!-- Sumary-->
       <div class="container">
-        <h2 class="h5 text-center is-sec_title">Resumo</h2>
+        <h2 class="h5 text-center is-sec__name">Resumo</h2>
         <!--- Intro -->
-        <h3 class="h2 text-center">
+        <h3 class="h2  text-center">
           Lorem ipsum dolor sitamet consect.
         </h3>
 
         <section class="d-flex flex-column align-items-center l-timeline">
           <!-- Professional experience -->
-          <h3 class="text-center is-sub_title timeline__title ">Experiências Profissional</h3>
+          <h4 class="text-center is-sub_title timeline__title ">Experiências Profissional</h4>
 
           <article class="timeline__content">
             <!-- Experience -->
             <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
 
             <div class="d-inline-block mb-4 pb-4 timeline__header">
-              <h4 class="h5">Developer</h4>
+              <h5 class="">Developer</h5>
               <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
             </div>
 
             <div class="timeline__body">
-              <h5 class="h6 body__title">Freelancer</h5>
+              <h6 class="body__title">Freelancer</h6>
               <p class="is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
                 accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
@@ -198,18 +198,18 @@
             </div>
           </article>
 
-          <h3 class="text-center is-sub_title timeline__title ">Educação</h3>
+          <h4 class="text-center is-sub_title timeline__title">Educação</h4>
 
           <article class="timeline__content">
             <!--  -->
             <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
 
             <div class="d-inline-block mb-4 pb-4 timeline__header">
-              <h4 class="h5">Developer</h4>
+              <h5 class="h5">Developer</h5>
               <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
             </div>
             <div class="timeline__body">
-              <h5 class="h6 body__title">Freelancer</h5>
+              <h6 class="body__title">Freelancer</h6>
               <p class="is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
                 accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
@@ -217,15 +217,16 @@
               </p>
             </div>
           </article>
+
           <article class="timeline__content">
             <img src="./public/img/icon-work.svg" class="timeline__icon" alt="">
 
             <div class="d-inline-block mb-4 pb-4 timeline__header">
-              <h4 class="h5">Developer</h4>
+              <h5>Developer</h5>
               <span><time datetime="2021-03-01">Março 2021</time> - Presente</span>
             </div>
             <div class="timeline__body">
-              <h5 class="h6 body__title">Freelancer</h5>
+              <h6 class="body__title">Freelancer</h6>
               <p class="is-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, beatae deserunt iste ipsa possimus
                 accusamus fugiat quaerat error iusto ad magnam debitis architecto exercitationem facere ut ab modi ea
@@ -239,8 +240,8 @@
 
     <section class="container l-portfolio" id="scroll-portfolio">
       <!-- Portfolio -->
-      <h2 class="h5 text-center is-sec_title">Portfolio</h2>
-      <h3 class="h2 mb-4 text-center">
+      <h2 class="h5 text-center is-sec__name">Portfolio</h2>
+      <h3 class="h2 text-center is-sec__text">
         Lorem ipsum dolor sit amet consect.
       </h3>
 
@@ -331,11 +332,12 @@
     <section class="l-service" id="scroll-service">
       <!-- My service -->
       <div class="container">
-        <h2 class="h5 text-center is-sec_title">Serviço</h2>
-        <h3 class="h1 mb-4 text-center text-white">
+        <h2 class="h5 text-center is-sec__name">Serviço</h2>
+        <h3 class="h1 mb-3 text-center text-white">
           Lorem ipsum dolor sit amet consect.
         </h3>
-        <p class="text-center mb-4 is-text service__text">
+
+        <p class="text-center text-white is-text is-sec__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia dignissimos
         </p>
 
@@ -379,11 +381,11 @@
     <section class="l-contact" id="scroll-contact">
       <!-- Contact -->
       <div class="container">
-        <h2 class="h5 text-center is-sec_title">Contato</h2>
-        <h3 class="h1 mb-4 text-center text-white">
+        <h2 class="h5 text-center is-sec__name">Contato</h2>
+        <h3 class="h1 mb-2 text-center is-sec__subtitle text-white">
           Lorem ipsum dolor sit amet consect.
         </h3>
-        <p class="text-center mb-4 is-text service__text">
+        <p class="text-center text-white is-text is-sec__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia dignissimos
         </p>
 
@@ -407,10 +409,10 @@
           <div class="contact__data">
             <label for="inputMessage" class="form-label contact__label">Menssagem:</label>
             <textarea class="form-control contact__input" name="inputMessage" id="inputMessage" cols="30"
-              rows="4"></textarea>
+              rows="2"></textarea>
           </div>
 
-          <input type="submit" class="btn btn-success btn mt-4 contact__button" value="Enviar">
+          <input type="submit" class="btn btn-success btn contact__button" value="Enviar">
         </form>
 
         <div class="row">
@@ -457,13 +459,15 @@
     </section>
   </main>
 
-  <footer class="d-flex flex-column justify-content-around align-items-start flex-md-row text-white l-footer">
+  <footer class="d-flex flex-column justify-content-around align-items-center flex-md-row align-items-md-start text-white l-footer">
     <!-- Footer-->
 
-    <div class="footer__copyright mb-4">
+    <div class="footer__copyright text-center text-md-start mb-4">
       <p class="d-inline">© Todos os Diretos Reservados - <address class="d-inline">Pablo Abreu</address>.<p>
-      <p class="d-inline">Design by  <address class="d-inline">jadson666@gmail.com</address> <p>
-    </div>  
+          <p class="d-inline">Design by <address class="d-inline">jadson666@gmail.com</address>
+            <p>
+
+    </div>
 
     <div class="footer__social">
       <a href="#"><img src="./public/img/icon-email-cicle.png" class="is-social__icons" alt="Icone do email"></a>

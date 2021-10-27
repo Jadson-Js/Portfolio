@@ -17,7 +17,7 @@
 
   .navbar {
     height: auto;
-    
+
     .toggle {
       position: relative;
       width: auto;
@@ -75,10 +75,20 @@
   }
 
   .about__data {
-    max-width: 70%;
+    max-width: 80%;
 
-    .data__table {
-      width: 100%;
+    .data__table--left {
+     // background: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .data__table--right {
+      //background: yellow;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 
